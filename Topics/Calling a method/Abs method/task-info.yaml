@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: This method calculates the absolute value of a double value
+- text: It is a user-defined method
+- text: This method's name is Math
+- text: It belongs to the Math library
+- text: It is a built-in method
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10978#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 15 Mar 2023 23:18:32 UTC"
+record: -1
+selected_options:
+- 0
+- 3
+- 4
+local_check: false
